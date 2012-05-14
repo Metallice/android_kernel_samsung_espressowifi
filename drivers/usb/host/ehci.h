@@ -761,6 +761,7 @@ static inline unsigned ehci_read_frame_index(struct ehci_hcd *ehci)
 
 /*-------------------------------------------------------------------------*/
 
+#if 0
 #ifndef DEBUG
 #define STUB_DEBUG_FILES
 #endif	/* DEBUG */
