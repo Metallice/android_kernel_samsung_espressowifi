@@ -312,7 +312,6 @@ static struct elevator_type iosched_sio = {
 		.elevator_merge_req_fn		= sio_merged_requests,
 		.elevator_dispatch_fn		= sio_dispatch_requests,
 		.elevator_add_req_fn		= sio_add_request,
-		.elevator_queue_empty_fn	= sio_queue_empty,
 		.elevator_former_req_fn		= sio_former_request,
 		.elevator_latter_req_fn		= sio_latter_request,
 		.elevator_init_fn		= sio_init_queue,
@@ -344,3 +343,7 @@ module_exit(sio_exit);
 MODULE_AUTHOR("Miguel Boton");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Simple IO scheduler");
+
+
+
+
