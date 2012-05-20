@@ -237,8 +237,6 @@ config CPU_FREQ_GOV_CONSERVATIVE
 config CPU_FREQ_GOV_LAZY
 	tristate "'lazy' cpufreq governor"
 	depends on CPU_FREQ
-	help
-	  'lazy' - this driver is rather similar to the 'ondemand'
 
 config CPU_FREQ_GOV_WHEATLEY
 	tristate "'wheatley' cpufreq governor"

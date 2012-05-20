@@ -13,9 +13,9 @@
  *
  */
 
-//#define DEBUG_PRINT			1
+#define DEBUG_PRINT			1
 #define FACTORY_TESTING			1
-//#define TOUCH_BOOST			1
+#define TOUCH_BOOST			1
 
 #include <linux/module.h>
 #include <linux/delay.h>
@@ -1445,4 +1445,3 @@ MODULE_LICENSE("GPL");
 
 module_init(ts_init);
 module_exit(ts_exit);
-
